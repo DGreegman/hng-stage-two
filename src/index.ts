@@ -1,7 +1,7 @@
 import express, { Application, Request, Response } from 'express';
 import { configDotenv } from 'dotenv';
-import connect from './config/db';
 configDotenv()
+import connect from './config/db';
 
 // connect to database
 connect()
