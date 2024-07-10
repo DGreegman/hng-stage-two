@@ -5,24 +5,24 @@ const user_sechema = new Schema(
     {
         firstName: {
             type: String,
-            required: [true, '{PATH  is required}']
+            required: [true, '{PATH}  is required']
         },
         lastName: {
             type: String,
-            required: [true, '{PATH  is required}']
+            required: [true, '{PATH}  is required']
         },
         email: {
             type: String,
-            required: [true, '{PATH  is required}'],
+            required: [true, '{PATH}  is required'],
             unique: true
         },
         password: {
             type: String,
-            required: [true, '{PATH  is required}']
+            required: [true, '{PATH}  is required']
         },
         phone: {
             type: String,
-            required: [true, '{PATH  is required}'],
+            required: [true, '{PATH}  is required'],
             unique: true
         }
     },

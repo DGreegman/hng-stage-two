@@ -3,11 +3,11 @@ import IOrg from '../interfaces/org.interface'
 const org_schema = new Schema({
     name: {
         type: String,
-        required: [true, '{PATH  is required}']
+        required: [true, '{PATH}  is required']
     },
     description: {
         type: String,
-        required: [true, '{PATH  is required}']
+        required: [true, '{PATH}  is required']
     },
 },
     {
